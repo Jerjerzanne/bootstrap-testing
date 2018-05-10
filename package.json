@@ -2,7 +2,7 @@
   "name": "bootstrap-testing",
   "version": "1.0.0",
   "description": "Testing Bootstrap and other dev modules (gulp, browser-sync, gulp-sass)",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Jerjerzanne/bootstrap-testing#readme",
   "devDependencies": {
     "browser-sync": "^2.24.4",
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   },
   "dependencies": {
