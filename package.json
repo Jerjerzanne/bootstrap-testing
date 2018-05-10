@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jerjerzanne/bootstrap-testing/issues"
   },
-  "homepage": "https://github.com/Jerjerzanne/bootstrap-testing#readme"
+  "homepage": "https://github.com/Jerjerzanne/bootstrap-testing#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
