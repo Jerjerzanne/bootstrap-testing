@@ -9,6 +9,4 @@ It took me a while to figure out how to reach deep into the modules' dependencie
 
 This allows fairly easy fixes to the vulnerabilities, but if I find a module that can resolve these issues automatically I will add it to the project's devDependencies.
 
-
-
-It can be noted that these version issues with nested modules present an opportunity for us to help the modules' developers by updating their dependencies lists.
+The nature of these issues are, for the most part, security related, which is something I need to look into if we are gonna be using npm.
