@@ -1,4 +1,4 @@
-# bootstrap-testing
+# bootstrap-testing through yarn
 Testing Bootstrap and other dev modules (gulp, browser-sync, gulp-sass)
 
 
@@ -13,15 +13,19 @@ This method fixes most vulnerabilities, but they seem to be overridden whenever 
 
 The nature of these issues are, for the most part, security related, which mean you should have no issues running it, but this is definitely something I will need to look into if we want to use npm(apparently this is not an issue in Yarn).
 
+## Using yarn instead of npm
+
+yarn seems to be quite intuitive, and from what little research I made it should be safer and faster. I have yet to look into how its package lock operates compared to npm.
+
 
  
 ## Installation 
-if you do not have node.js/npm - https://nodejs.org/en/  
-if you want to control your versions of node, try nvm - https://github.com/creationix/nvm  
-once you npm working, clone the repo and move into it.  
+Follow the yarn installation instruction for your OS 
+<a href="https://yarnpkg.com/lang/en/docs/install/#debian-stable" target="_blank">here</a>. Take note of the current stable version.  
+Once you have yarn working at the stable version, clone the repo and move into it.  
 ## From the repos directory
-    npm install
-    npm run gulp
+    yarn
+    yarn run gulp
 
 
 Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
