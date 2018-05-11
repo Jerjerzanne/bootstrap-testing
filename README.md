@@ -24,9 +24,9 @@ once you npm working, clone the repo and move into it.
     npm run gulp
 
 
-Change the ./src/index.html file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
+Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
  
-Override themes from ./src/scss/styles.scss with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">this</a>.
+Override themes from `./src/scss/styles.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">this</a>.
 
 
     
