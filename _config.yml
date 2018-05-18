@@ -1,0 +1,21 @@
+# Configuration file for Jekyll - https://jekyllrb.com/docs/configuration/
+
+
+name: Simon Roy
+markdown: kramdown
+
+
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - scss/
+  - package.json
+  - yarn.lock
+  - README.md
+  - gulpfile.js
+  - LICENSE
+

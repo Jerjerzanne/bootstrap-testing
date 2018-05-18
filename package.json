@@ -6,7 +6,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "jekyll": "jekyll serve"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
