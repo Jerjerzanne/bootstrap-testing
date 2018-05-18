@@ -25,12 +25,15 @@ Follow the yarn installation instruction for your OS
 Once you have yarn working at the stable version, clone the repo and move into it.  
 ## From the repos directory
     yarn
-    yarn run gulp
+    jekyll serve
 
 
 Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
  
 Override themes from `./src/scss/styles.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">this</a>.
 
-
-    
+To add to either the component or documentation pages, add what you want at the `index.html` in either directories.
+```
+component/index.html
+documentation/index.html
+```
