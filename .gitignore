@@ -60,3 +60,7 @@ typings/
 # Avoid jekyll _site directory
 
 _site/
+
+# Avoid .sass-cache directory
+
+.sass-cache/

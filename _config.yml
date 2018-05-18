@@ -4,7 +4,6 @@
 name: Simon Roy
 markdown: kramdown
 
-
 exclude:
   - .git/
   - .github/
@@ -19,3 +18,7 @@ exclude:
   - gulpfile.js
   - LICENSE
 
+sass:
+  cache: false
+  sass_dir: src/css
+    

@@ -30,7 +30,7 @@ Once you have yarn working at the stable version, clone the repo and move into i
 
 Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
  
-Override themes from `./src/scss/styles.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">this</a>.
+Override themes from `./src/_scss/styles.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">any SASS variables</a>.
 
 To add to either the component or documentation pages, add what you want at the `index.html` in either directories.
 ```
