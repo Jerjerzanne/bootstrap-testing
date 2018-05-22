@@ -24,6 +24,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - dist/
+  - test.html
 sass:
   cache: false
   sass_dir: ./css

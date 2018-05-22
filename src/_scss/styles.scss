@@ -1,6 +1,6 @@
 // Variable Overrides 
 $theme-colors: (
-  "primary": #0ea33b
+  "primary": #15b6c2
 );
 
 $body-bg: #ededed;
@@ -9,3 +9,4 @@ $body-bg: #ededed;
     background-color: #ffffff !important;
     border-top: 3px solid rgb(219, 219, 219);
 }
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -4,16 +4,16 @@ var sass        = require('gulp-sass');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/css/*.scss'])
+    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/_scss/*.scss'])
         .pipe(sass())
-        .pipe(gulp.dest("dist/css"))
+        .pipe(gulp.dest("src/css"))
         .pipe(browserSync.stream());
 });
 
 // Move the javascript files into our /src/js folder
 gulp.task('js', function() {
     return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/umd/popper.min.js'])
-        .pipe(gulp.dest("dist/js"))
+        .pipe(gulp.dest("src/js"))
         .pipe(browserSync.stream());
 });
 
@@ -21,11 +21,14 @@ gulp.task('js', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./src"  
+        server: {
+        baseDir: "./src",
+        index: "test.html"
+        }
     });
 
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/_scss/*.scss'], ['sass']);
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/test.html").on('change', browserSync.reload);
 });
 
 gulp.task('default', ['js','serve']);
