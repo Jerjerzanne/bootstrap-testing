@@ -3,13 +3,15 @@
 
 name: Simon Roy
 markdown: kramdown
+source: ./src/
+permalink: pretty
 
 exclude:
   - .git/
   - .github/
   - assets/scss/
   - build/
-  - js/
+  #- js/
   - node_modules/
   - scss/
   - package.json
@@ -17,8 +19,21 @@ exclude:
   - README.md
   - gulpfile.js
   - LICENSE
-
+  - vendor/
+  - .bundle/
+  - Gemfile
+  - Gemfile.lock
+  - dist/
 sass:
   cache: false
-  sass_dir: src/css
+  sass_dir: ./css
     
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+

@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "gulp": "gulp",
-    "jekyll": "jekyll serve"
+    "docs-serve": "bundle exec jekyll serve"
+
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
