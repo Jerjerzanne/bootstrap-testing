@@ -15,10 +15,6 @@ If you intend on running the documentation, you will need to <a href="https://ww
     yarn    
     bundle install --path vendor/bundle
  
-
-### To compile your SASS and run a local instance with BrowserSync
-    yarn run gulp
-
 ### To run the documentation with Jekyll
     yarn run docs-serve
 
