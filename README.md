@@ -18,9 +18,9 @@ If you intend on running the documentation, you will need to <a href="https://ww
 ### To run the documentation with Jekyll
     yarn run docs-serve
 
-Change the `./src/test.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
+Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
  
-Override themes from `./src/_scss/styles.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">any SASS variables</a>.
+Override themes from `./src/_scss/_custom-variables.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">any SASS variables</a>.
 
 To add to either the component or documentation pages, add what you want at the `index.html` in either directories.
 ```
