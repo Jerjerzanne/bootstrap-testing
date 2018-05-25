@@ -5,7 +5,7 @@ name: Simon Roy
 markdown: kramdown
 source: ./src/
 permalink: pretty
-
+destination: ./docs/
 exclude:
   - .git/
   - .github/

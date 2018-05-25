@@ -6,9 +6,9 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "gulp": "gulp",
-    "docs-serve": "bundle exec jekyll serve --host 0.0.0.0"
-
+    "dist": "gulp",
+    "docs-serve": "bundle exec jekyll serve --host 0.0.0.0",
+    "clean": "bundle exec jekyll clean"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
