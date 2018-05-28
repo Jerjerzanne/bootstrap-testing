@@ -3,15 +3,15 @@
 
 name: Simon Roy
 markdown: kramdown
-source: ./src/
-permalink: pretty
-destination: ./docs/
+source: 
+permalink:
+destination:
 exclude:
   - .git/
   - .github/
   - assets/scss/
   - build/
-  #- js/
+  - js/
   - node_modules/
   - scss/
   - package.json
@@ -23,11 +23,11 @@ exclude:
   - .bundle/
   - Gemfile
   - Gemfile.lock
-  - dist/
-  - test.html
-sass:
-  cache: false
-  sass_dir: ./css
+  #- dist/
+  - css/
+#sass:
+ # cache: false
+  #sass_dir: ./css
     
 
 defaults:
