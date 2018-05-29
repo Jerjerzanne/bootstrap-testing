@@ -1,4 +1,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
 <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="{{ site.baseurl }}/dist/css/styles.css">
+
+{% if jekyll.environment == "production" %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/custom-variables.css">
+{% endif %}
+
+{% if jekyll.environment == "development" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+{% endif %}

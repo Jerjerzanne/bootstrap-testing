@@ -24,10 +24,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   #- dist/
-  - css/
-#sass:
- # cache: false
-  #sass_dir: ./css
+  #- css/
+sass:
+  sass_dir: ./
     
 
 defaults:
