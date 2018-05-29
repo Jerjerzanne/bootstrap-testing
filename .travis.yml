@@ -1,0 +1,10 @@
+language: node_js
+sudo: false
+
+install:
+  - bundle install --path vendor/bundle
+  - yarn
+
+script:
+  - yarn run docs-prod
+  - yarn run test
