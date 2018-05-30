@@ -46,7 +46,16 @@ gulp.task('serve', ['sass'], function () {
 });
 
 //tests all html files of the static site
-gulp.task('files', function () {
+gulp.task('files',{
+    allowedStandards: 'WCAG2AA',
+    level: 'error',
+    chromeLaunchConfig: {
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox'
+        ]
+    }
+}, function () {
     glob('./_site/**/*.html', function (err, files) {
         console.log(files);
         for (i = 0; i < files.length; i++) {
