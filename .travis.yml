@@ -1,5 +1,7 @@
 language: node_js
-sudo: false
+node_js:
+  - "8"
+  - "node"
 
 install:
   - bundle install --path vendor/bundle
@@ -8,3 +10,4 @@ install:
 script:
   - yarn run docs-prod
   - yarn run test
+  
