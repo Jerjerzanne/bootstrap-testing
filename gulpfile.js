@@ -8,8 +8,8 @@ var glob = require('glob');
 
 //Testing
 
-var pa11y = require('pa11y');
-const cli = require('pa11y-reporter-cli');
+//var pa11y = require('pa11y-ci');
+
 
 //Building the css for the distribution folder
 gulp.task('sass', function () {
@@ -25,6 +25,11 @@ gulp.task('js', function () {
         .pipe(gulp.dest("dist/js"))
         .pipe(browserSync.stream());
 });
+
+//==================================
+//          Currently Unused
+//==================================
+
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function () {
@@ -53,5 +58,6 @@ gulp.task('files', function () {
 
     });
 });
+
 
 gulp.task('default', ['sass', 'js']);

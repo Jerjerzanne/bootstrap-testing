@@ -10,7 +10,7 @@
     "docs-dev": "bundle exec jekyll serve --host 0.0.0.0",
     "docs-prod": "JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0",
     "clean": "bundle exec jekyll clean",
-    "test": "gulp files",
+    "test": "pa11y-ci './_site/**/*.html'",
     "build": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "devDependencies": {
@@ -18,12 +18,11 @@
     "glob": "^7.1.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1",
-    "pa11y": "^5.0.4"
+    "pa11y-ci": "^2.1.1"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
-    "pa11y-reporter-cli": "^1.0.1",
     "popper.js": "^1.14.3"
   }
 }
