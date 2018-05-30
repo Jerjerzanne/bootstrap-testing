@@ -13,7 +13,7 @@ const cli = require('pa11y-reporter-cli');
 
 //Building the css for the distribution folder
 gulp.task('sass', function () {
-    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', '_scss/*.scss'])
+    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', '_scss/combined.scss'])
         .pipe(sass())
         .pipe(gulp.dest("dist/css"));
 
