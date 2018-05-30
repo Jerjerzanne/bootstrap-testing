@@ -16,7 +16,7 @@ If you intend on running the documentation, you will need to <a href="https://ww
     bundle install --path vendor/bundle
  
 ### To run the documentation with Jekyll
-    yarn run docs-serve
+    yarn run docs-dev
 
 Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
  
