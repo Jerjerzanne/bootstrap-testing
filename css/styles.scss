@@ -3,4 +3,5 @@
 {% if jekyll.environment == "development" %}
 @import "_scss/custom-variables.scss";
 @import "node_modules/bootstrap/scss/bootstrap";
+@import "_scss/custom-styles.scss";
 {% endif %}
