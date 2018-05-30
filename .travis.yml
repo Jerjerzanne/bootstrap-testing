@@ -8,6 +8,6 @@ install:
   - yarn
 
 script:
-  - yarn run docs-prod
+  - yarn run build
   - yarn run test
   
