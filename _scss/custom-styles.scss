@@ -6,7 +6,7 @@
 @each $color, $value in $theme-colors {
     .alert-#{$color} {
       color: $black;
-     box-shadow: $box-shadow-sm;
+     box-shadow: $dropdown-box-shadow;
     }
   
     .alert-icon.alert-#{$color} {
@@ -28,45 +28,61 @@
       .alert-icon.alert-dismissible .message{
           padding: $alert-padding-y 4rem $alert-padding-y $alert-padding-x;
       }
-  }
+}
   
-  .alert-icon-border {
-      background-color: $white;
-  }
+.alert-icon-border {
+    background-color: $white;
+}
   
-  //Cards
+//Cards
   
-  .card {
-      box-shadow: $box-shadow-sm;
-  }
+.card {
+    box-shadow: $dropdown-box-shadow;
+}
   
-  .card-header, .card-footer {
-      background: transparent;
-      margin: 0 $card-spacer-x;
-      padding: $card-spacer-y 0;
-  }
+.card-header, .card-footer {
+    background: transparent;
+    margin: 0 $card-spacer-x;
+    padding: $card-spacer-y 0;
+}
   
-  a .card {
-      text-decoration: none;
-  }
+a .card {
+    text-decoration: none;
+}
   
-  //Menus
+//Menus
   
-  a.dropdown-item {
-      text-decoration: none;
-  }
+a.dropdown-item {
+    text-decoration: none;
+}
   
-  .dropdown-divider {
-      margin:0;
-  }
+.dropdown-divider {
+    margin:0;
+}
+
+//Nav Tabs
+
+.nav-tabs .nav-link {
+    text-decoration: none;
+    padding: $nav-link-padding-y $nav-link-padding-x .2rem $nav-link-padding-x;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+}
   
-  //Helper Classes
+//Modals
+.modal-header, .modal-footer {
+    border: none;
+}
+
+//Helper Classes
   
-  .bd-example {
-      position: relative;
-  }
+.bd-example {
+    position: relative;
+}
   
-  .bd-example>.dropdown-menu:first-child {
-      position: static;
-      display: block;
-  }
+.bd-example>.dropdown-menu:first-child {
+    position: static;
+    display: block;
+}
