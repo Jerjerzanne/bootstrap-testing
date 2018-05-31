@@ -1,5 +1,5 @@
 {
-    "default": {
+    "defaults": {
         "allowedStandards": "WCAG2AA",
         "level": "error",
         "chromeLaunchConfig": {
@@ -8,9 +8,5 @@
                 "--disable-setuid-sandbox"
             ]
         }
-    },
-    "urls":[
-        "./_site/index.html",
-        "./_site/components/index.html"
-    ]
+    }
 }

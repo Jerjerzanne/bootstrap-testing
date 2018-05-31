@@ -10,7 +10,7 @@
     "docs-dev": "bundle exec jekyll serve --host 0.0.0.0",
     "docs-prod": "JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0",
     "clean": "bundle exec jekyll clean",
-    "test": "pa11y-ci",
+    "test": "pa11y-ci  './_site/**/*.html'",
     "build": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "devDependencies": {
