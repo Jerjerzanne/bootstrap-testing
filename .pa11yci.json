@@ -8,5 +8,9 @@
                 "--disable-setuid-sandbox"
             ]
         }
-    }
+    },
+    "urls":[
+        "./_site/index.html",
+        "./_site/components/index.html"
+    ]
 }
