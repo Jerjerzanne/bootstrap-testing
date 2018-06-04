@@ -1,7 +1,4 @@
-# bootstrap-testing
-Testing Bootstrap and other dev modules (gulp, browser-sync, gulp-sass)
-
-This repositery holds the squeleton of a design system. We will be using bootstrap as a base for our CSS and hosting the site on github pages with jekyll.
+# Prototype for a static site builder
 
 ## Installation 
 Follow the yarn installation instruction for your OS 
@@ -9,21 +6,23 @@ Follow the yarn installation instruction for your OS
 
 Once you have yarn working at the stable version, clone the repo and __move into it__.  
 
-If you intend on running the documentation, you will need to <a href="https://www.ruby-lang.org/en/documentation/installation/" target="_blank">install Ruby</a> and then Bundler with `gem install bundler` in your directory.
-
 ### Install your dependencies
     yarn    
-    bundle install --path vendor/bundle
  
-### To run the documentation with Jekyll
-    yarn run docs-dev
+### to run the static build 
+    yarn run gulp
 
-Change the `./src/index.html` file with any <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">bootstrap component</a>.
- 
-Override themes from `./src/_scss/_custom-variables.scss` with <a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors" target="_blank">any SASS variables</a>.
+# Usage
+
+Simply add your pages in the `docs/` folder in any structure you want. For now I have not worked out the layout feature from jekyll's liquid but the include should work. Just use this following notation:
+
+```
+{% include "_includes/yourHtmlSnippet.html" %}
+```
+
 
 To add to either the component or documentation pages, add what you want at the `index.html` in either directories.
 ```
-src/component/index.html
-src/documentation/index.html
+docs/component/index.html
+docs/documentation/index.html
 ```
