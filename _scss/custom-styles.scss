@@ -33,11 +33,18 @@
 .alert-icon-border {
     background-color: $white;
 }
-  
+
+//Forms
+
+.form-control {
+    border-radius: $border-radius-sm;
+}
+
 //Cards
   
 .card {
     box-shadow: $dropdown-box-shadow;
+    border-radius: $border-radius-lg;
 }
   
 .card-header, .card-footer {
@@ -49,15 +56,61 @@
 a .card {
     text-decoration: none;
 }
+
+.card-profile {
+    display: flex;
+}
+
+.card-profile .card-body {
+    flex: 1;
+}
+
+.card-profile .avatar {
+    margin-top: -70px;
+    width: 90px;
+    height: 90px;
+}
   
 //Menus
-  
+.dropdown-menu {
+    border-radius: $border-radius-sm;
+}  
 a.dropdown-item {
     text-decoration: none;
 }
   
 .dropdown-divider {
     margin:0;
+}
+
+//Navbars
+
+.navbar a {
+    text-decoration: none !important;
+}
+
+.navbar-brand {
+    margin-right: 3rem;
+}
+
+.navbar-light .nav-item:hover {
+    background-color: $gray-200;
+    border-radius: $border-radius;
+}
+
+.navbar-light .nav-item.active {
+    background-color: $gray-200;
+    border-radius: $border-radius;
+}
+
+.navbar-dark .nav-item.active {
+    background-color: rgba(255,255,255, 0.15);
+    border-radius: $border-radius;
+}
+
+.navbar-dark .nav-item:hover {
+    background-color: rgba(255,255,255, 0.15);
+    border-radius: $border-radius;
 }
 
 //Nav Tabs
@@ -85,4 +138,44 @@ a.dropdown-item {
 .bd-example>.dropdown-menu:first-child {
     position: static;
     display: block;
+}
+
+//Avatars
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: $border-radius-sm;
+    background: #F7F9FA;
+    color: #fff;
+}
+
+.avatar.avatar-sm {
+    width: 26px;
+    height: 26px; 
+}
+
+.avatar.avatar-lg {
+    width: 115px;
+    height: 115px;
+}
+
+.media .avatar {
+    margin-right: 15px;
+}
+
+//Media
+
+.media.media-comment {
+    margin: 1rem 0;
+}
+.media .media-footer {
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.media.media-nested-comment {
+    margin: 0.75rem 0;
+    border-left: 1px solid $primary;
+    padding-left: 1rem;
 }

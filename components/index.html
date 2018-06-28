@@ -47,73 +47,173 @@ title: Components
                 </ul>
             </div>
         </nav>
-        <div class="jumbotron">
-                <h1 class="display-4">Simple. Elegant. Awesome.</h1>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                </p>
-            </div>
-            <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#!">Navbar</a>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#!">Home
-          <span class="sr-only">(current)</span>
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#!">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#!">Disabled</a>
+        <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+          <button type="button" class="btn btn-light"><span class="fa fa-search"></span><span class="sr-only">Search</span></button>
+      </li>
+      <li class="nav-item">
+          <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+      </li>
+      <li class="nav-item">
+          <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form class="form-inline my-2 my-lg-0 mr-3">
+        <div class="input-group">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button">Search</button>
+          </div>
+        </div>
+        
+      </form>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Search</span></button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 <div class="container-fluid">
   <div class="row mt-3">
@@ -463,6 +563,7 @@ title: Components
         </div>
       </div>
 
+      <!-- Tabs -->
       <div class="mt-2">
         <ul class="nav nav-tabs">
           <li class="nav-item">
@@ -480,7 +581,22 @@ title: Components
         </ul>
       </div>
 
+      <!-- List groups -->
 
+      <ul class="list-group mt-3">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+
+      <!-- Avatars -->
+      <div class="mt-3">
+        <img alt="..." class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+        <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+        <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+      </div>
     </div>
 
     <div class="col-lg-3 col-md-6">
@@ -700,12 +816,31 @@ title: Components
         </div>
       </div>
 
-      <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+      <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">
+
+        <!--
+<div class="card-header" style="background-image: url(http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg); height:100px; background-size:cover;"></div>
+
+        -->
+        
+        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+            <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            <div>
+              <h5 class="card-title">Name or Group</h5>
+              <p class="text-muted">Job title or meta information</p>
+              <button type="button" class="btn btn-primary">Call to Action</button>
+            </div>
+            
         </div>
       </div>
+
+      <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+          <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
 
       <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
@@ -766,6 +901,90 @@ title: Components
         </a>
         
       </div>
+<!-- Comments -->
+      <div class="mt-3">
+        <div class="card">
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li class="media media-comment">
+                  <a href="#!">
+                      <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+                  </a>
+                  <div class="media-body">
+                    <div class="media-heading">
+                      <a href="#!">John Doe</a>
+                      <small class="text-muted">1 hour ago</small>
+                    </div>
+                    <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
+      
+                    Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                    </div>
+                    <div class="media-footer">
+                      <a href="#!"><small>Reply</small></a>
+                      <a href="#!"><small>Like</small></a>
+                    </div>
+                  </div>
+              </li>
+
+              <li class="media media-comment">
+                  <a href="#!">
+                      <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+                  </a>
+                  <div class="media-body">
+                    <div class="media-heading">
+                      <a href="#!">John Doe</a>
+                      <small class="text-muted">1 hour ago</small>
+                    </div>
+                    <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
+      
+                    Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                      
+                    </div>
+                    <div class="media-footer">
+                      <a href="#!"><small>Reply</small></a>
+                    </div>
+
+                    <div class="media media-nested-comment">
+                        <a href="#!">
+                            <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+                        </a>
+                        <div class="media-body">
+                          <div class="media-heading">
+                            <a href="#!">John Doe</a>
+                            <small class="text-muted">1 hour ago</small>
+                          </div>
+                          <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
+            
+                          Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                          </div>
+                    </div>
+                  </div>
+              </li>
+
+              <li class="media media-comment">
+                  <a href="#!">
+                      <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+                  </a>
+                  <div class="media-body">
+                    <div class="media-heading">
+                      <a href="#!">John Doe</a>
+                      <small class="text-muted">1 hour ago</small>
+                    </div>
+                    <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
+      
+                    Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                    </div>
+                    <div class="media-footer">
+                      <button type="button" class="btn btn-light"><span class="fa fa-heart-o"></span><span class="sr-only">Like</span></button><span>3</span>
+                      <button type="button" class="btn btn-light"><span class="fa fa-comment-o"></span> Reply</button>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
         <!-- Menus -->
       <div class="bd-example mt-3">
         <div class="dropdown-menu">
@@ -811,6 +1030,8 @@ title: Components
           </div>
         </div>
       </div>
+
+
     </div>
   </div>
 </div>
